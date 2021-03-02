@@ -5,7 +5,7 @@ let iconObject = icons;
 export let vividNode;
 
 // Replace and Inject SVG Node 
-let watchInjection = function () {
+export let watchInjection = function () {
     vividNode = document.querySelectorAll("[data-vi]");
     vividNode.forEach(function (item, key) {
         let tempIconNode = item;
